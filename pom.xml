@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.5</version>
         <relativePath/>
     </parent>
     <groupId>com.pw</groupId>
@@ -14,8 +14,8 @@
     <name>spring-boot-postgresql-jpa-crud-rest</name>
     <description>Spring Boot + PostgreSQL + JPA + Rest</description>
     <properties>
-        <java.version>17</java.version>
-        <springdoc-openapi-starter-webmvc-ui.version>2.1.0</springdoc-openapi-starter-webmvc-ui.version>
+        <java.version>21</java.version>
+        <springdoc-openapi-starter-webmvc-ui.version>2.5.0</springdoc-openapi-starter-webmvc-ui.version>
     </properties>
     <dependencies>
         <dependency>
@@ -51,7 +51,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -68,5 +67,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
